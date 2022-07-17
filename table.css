@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 85vh;
+    /* background: #ecf0f3; */
+    background: #FBC5C5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+    font-family: poppins;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #F5E6CA;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #FED2AA;
+}
