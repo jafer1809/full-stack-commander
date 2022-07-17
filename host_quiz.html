@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style1.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        </head>
+        <!-- <script>
+            $(document).ready(function(){
+                $(".emai").keypress(function()
+                {
+                    var a=$(".emai").val();
+                    $(".email").text(a);
+                })
+            })
+            </script> -->
+    <body>
+        <div class="container">
+            <div class="brand-title">QUIZ GRADERS</div>
+            <div class="inputs">
+            <form method="post" action="login.php">
+                <label for="email">email</label><br>
+                <input type="email" name="email" placeholder="email" class="emai" required><br>
+                <span class="email"></span>
+                <label for="password">
+                    password
+                </label><br>
+                <input type="password" name="psw" placeholder="password" required><br>
+                <span class="psw"></span>
+                <button type="submit">login</button>
+            </div>
+                <p>dont have account</p><a href="signup1.php">signup</a>
+            </form>
+           
+        </div>
+    </div>
+    </body>
+    </html>

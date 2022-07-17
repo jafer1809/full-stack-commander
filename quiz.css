@@ -1,0 +1,90 @@
+body {
+    background-color: #FCC5C0;
+}
+
+div {
+    background-color: #FFE6E6;
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    height: 150px;
+    margin-top: 200px;
+    margin-left: 20%;
+    margin-right: 40%;
+    width: 50%;
+}
+
+#qus {
+    font-size: larger;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+}
+
+#options {
+    font-size: large;
+    top: 40%;
+    left: 5%;
+}
+
+#submit {
+    top: 80%;
+    left: 40%;
+    background-color: #C689C6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    float: right;
+}
+#next{
+    top: 80%;
+    left: 40%;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    float: right;
+}
+#next:hover{
+    background-color: whitesmoke;
+    color: red;
+}
+label:hover{
+    color: blue;
+
+}
+.timer{
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid black;
+    height: 40px;
+    width: 80px;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-left: 30%;
+    position: fixed;
+   }
+   #submit:hover{
+    background-color: rgb(4, 30, 63);
+    color: antiquewhite;
+   }
